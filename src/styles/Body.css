@@ -1,0 +1,85 @@
+.body-container{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.title-text{
+    margin-top: 10px;
+    min-height: 50px;
+    resize: none;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #dddddd;
+}
+
+.description-text{
+    margin-top: 10px;
+    min-height: 200px;
+    resize: none;
+    height: auto;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #dddddd;
+}
+
+.submit-btn{
+    margin-top: 10px;
+    align-self: flex-start;
+    height: 40px;
+    width: 90px;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    border-radius: 5px;
+    background-color: #c74060;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+
+.notes-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.delete-btn{
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: auto;
+    cursor: pointer;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.note-title{
+    display: flex;
+    color: white;
+}
+
+.note{
+    color: rgb(204, 204, 204);
+    font-family: Helvetica, sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    border: 0.1px solid gray;
+    padding: 10px 15px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    width: 350px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.note:hover{
+    .delete-btn{
+        opacity: 1;
+    }
+}
